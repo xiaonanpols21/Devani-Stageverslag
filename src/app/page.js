@@ -10,9 +10,9 @@ export default function Home() {
             <nav>
                 <Image
                     src={Logo}
-                    width={500}
-                    height={500}
-                    alt="Picture of the author"
+                    width={120}
+                    height={27}
+                    alt="Devani logo"
                 />
             </nav>
         </>
