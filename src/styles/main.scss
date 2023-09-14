@@ -1,6 +1,7 @@
-@import "./variables";
-@import "./breakpoints";
+@import "./_variables";
+@import "./_breakpoints";
 
 body {
     font-family: $font-stack;
+    background-color: red;
 }

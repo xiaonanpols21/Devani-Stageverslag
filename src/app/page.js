@@ -1,5 +1,5 @@
-import styles from '../styles/main.scss';
 
+import styles from '../styles/main.scss';
 import Image from 'next/image';
 
 import Logo from "../../public/img/logo.svg";
