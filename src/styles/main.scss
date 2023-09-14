@@ -10,3 +10,47 @@
 body {
     font-family: $font-stack;
 }
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $black;
+    border-bottom: 1px solid $white;
+
+    .i {
+        height: 30px;
+        color: $green;
+    }
+}
+
+.hero {
+    background-image: url(../../public/img/header.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 71px);
+    color: $white;
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 67px;
+        line-height: 70px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        @include f18;
+    }
+}

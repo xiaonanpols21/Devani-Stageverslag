@@ -1,1 +1,10 @@
 $font-stack: 'Open Sans', sans-serif;
+
+$green: #00FF42;
+$black: #1A1A1A;
+$white: #fff;
+
+@mixin f18 {
+    font-size: 18px;
+    line-height: 30px;
+}

@@ -1,20 +1,26 @@
 
 import styles from '../styles/main.scss';
 
-import Image from 'next/image';
-import Logo from "../../public/img/logo.svg";
-
 export default function Home() {
     return (
-        <>
-            <nav>
-                <Image
-                    src={Logo}
-                    width={120}
-                    height={27}
-                    alt="Devani logo"
-                />
-            </nav>
-        </>
+        <section className='hero'>
+            <h1>
+                <span>&nbsp;Stage</span>
+                <span>verslag</span>
+            </h1>
+
+            <h2 className='visually-hidden'>Auther</h2>
+            <ul>
+                <li>Xiao Nan Pols || 500839533</li>
+                <li>Decani || Front-end developer</li>
+            </ul>
+
+            <h2>Bedrijfsbegeleider</h2>
+            <ul>
+                <li>Emke Douwe Ottema</li>
+                <li>Webdeveloper</li>
+            </ul>
+            
+        </section>
     )
 }

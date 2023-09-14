@@ -1,6 +1,8 @@
 import '../styles/main.scss';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
+import Script from 'next/script';
+import Header from '@/components/global/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -11,16 +13,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="nl">
     <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="./img/logo.svg" />
+        {/* <link rel="icon" type="image/x-icon" href="../../public/img/logo.svg" /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
     </Head>
     <body>
+        <Header />
         {children}
     </body>
     </html>
