@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_27" data-name="Group 27" transform="translate(-20 -754)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(20 754)" fill="none" stroke="#00ff42" stroke-width="3">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="33.5" fill="none"/>
+    </g>
+    <path id="Icon_feather-play" data-name="Icon feather-play" d="M7.5,4.5,26.944,17,7.5,29.5Z" transform="translate(40.778 772)" fill="none" stroke="#00ff42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

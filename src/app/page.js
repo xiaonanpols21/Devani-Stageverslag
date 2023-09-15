@@ -1,5 +1,7 @@
 
 import styles from '../styles/main.scss';
+import Image from 'next/image';
+import PlayIcon from "../../public/img/play.svg"
 
 export default function Home() {
     return (
@@ -20,6 +22,26 @@ export default function Home() {
                 <li>Emke Douwe Ottema</li>
                 <li>Webdeveloper</li>
             </ul>
+
+            <h2>Stagebegeleider</h2>
+            <ul>
+                <li>Kevin van der Wiel</li>
+                <li>k.van.der.wiel@hva.nl</li>
+            </ul>
+
+            <h2 className='visually-hidden'>HvA</h2>
+            <ul>
+                <li>CMD Amsterdam || 2-2-24</li>
+            </ul>
+
+            <button>
+                <Image
+                    src={PlayIcon}
+                    width={70}
+                    height={70}
+                    alt="Play icoon"
+                />
+            </button>
             
         </section>
     )
