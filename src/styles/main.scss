@@ -27,11 +27,20 @@ li {
 
 a {
     text-decoration: none;
+    transition: $trans4;
+
+    &:hover {
+        color: $green;
+    }
 }
 
 .i {
     height: 30px;
     color: $green;
+}
+
+.open {
+    display: block;
 }
 
 header {
@@ -48,25 +57,30 @@ header {
 }
 
 nav {
+    display: none;
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    width: 95%;
     background-color: $black;
     z-index: 1;
+    padding: 20px 20px 30px 30px;
 
     a {
         color: $white;
     }
 
     button {
+        display: flex;
+        margin-left: auto;
         background-color: transparent;
         border: none;
     }
 
     ul {
         @include f26;
+        margin-top: 30px;
         font-weight: bold;
         text-transform: uppercase;
         line-height: 70px;

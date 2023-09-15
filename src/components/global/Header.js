@@ -1,17 +1,30 @@
+"use client"
 import Image from 'next/image';
-import Logo from "../../../public/img/logo.svg";
 import Link from 'next/link';
+import Logo from "../../../public/img/logo.svg";
+
+import {useState} from 'react';
 
 // Import the FontAwesomeIcon component
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// import the icons you need
 import {
     faBars,
     faXmark
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
+
+    // Function open and close menu
+    const [showMenu, setShowMenu] = useState(false);
+    const openMenu = () => {
+        setShowMenu(true);
+    };
+
+    const closeMenu = () => {
+        setShowMenu(false);
+    };
+
     return (
         <>
             <header>
@@ -21,15 +34,18 @@ export default function Header() {
                     height={27}
                     alt="Devani logo"
                 />
-                <button>
+                <button 
+                    className={`button-class ${(showMenu ? 'open' : '')}`}
+                    onClick={showMenu ? closeMenu : openMenu}
+                >
                     <FontAwesomeIcon
                         icon={faBars}
                         className='i'
                     />
                 </button>
             </header>
-            <nav>
-                <button>
+            <nav className={`nav-class ${(showMenu ? 'open' : '')}`}>
+                <button onClick={closeMenu}>
                     <FontAwesomeIcon
                         icon={faXmark}
                         className='i'
@@ -47,6 +63,6 @@ export default function Header() {
                     <li><Link href="">Extra</Link> </li>
                 </ul>
             </nav>
-    </>
+        </>
     )
 }

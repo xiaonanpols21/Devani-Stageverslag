@@ -1,5 +1,3 @@
-
-import styles from '../styles/main.scss';
 import Image from 'next/image';
 import PlayIcon from "../../public/img/play.svg"
 
