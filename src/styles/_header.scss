@@ -1,0 +1,45 @@
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $black;
+    border-bottom: 1px solid $white;
+
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+
+nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    background-color: $black;
+    z-index: 1;
+    padding: 20px 20px 30px 30px;
+
+    a {
+        color: $white;
+    }
+
+    button {
+        display: flex;
+        margin-left: auto;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    ul {
+        @include f26;
+        margin-top: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 70px;
+    }
+}

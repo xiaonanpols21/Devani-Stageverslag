@@ -1,0 +1,61 @@
+
+.hero {
+    @include flex(column, 50px);
+    height: calc(100vh - 71px);
+    padding: 20px;
+    background-image: url(../../public/img/header.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    font-family: $merriWeather;
+    font-style: italic;
+
+    h1 {
+        @include flex(column, 0px);
+        position: relative;
+        margin-left: 30px;
+        font-size: 67px;
+        line-height: 70px;
+        text-transform: uppercase;
+        font-family: $openSans;
+        font-style: normal;
+
+        &:after {
+            border-left: 4px solid $green;
+            content: "";
+            height: 120px;
+            position: absolute;
+            left: -20px;
+            top: 10px;
+            transform: rotate(24deg);
+        }
+    }
+
+    h2 {
+        @include f18;
+        margin-bottom: -50px;
+    }
+
+    ul {
+        @include f18;
+    }
+
+    button {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: fit-content;
+        border: none;
+        background-color: transparent;
+
+        &:after {
+            border-left: 4px solid $green;
+            content: "";
+            height: 60px;
+            position: absolute;
+            left: 50%;
+            bottom: -55px;
+        }
+    }
+}

@@ -14,6 +14,11 @@ $trans4: .4s;
     line-height: 31px;
 }
 
+@mixin f20 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 @mixin f26 {
     font-size: 26px;
     line-height: 30px;
