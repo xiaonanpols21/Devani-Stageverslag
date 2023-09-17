@@ -9,6 +9,11 @@ $white: #fff;
 
 $trans4: .4s;
 
+@mixin f16 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
 @mixin f18 {
     font-size: 18px;
     line-height: 31px;
@@ -19,13 +24,43 @@ $trans4: .4s;
     line-height: 30px;
 }
 
+@mixin f24 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
 @mixin f26 {
     font-size: 26px;
     line-height: 30px;
+}
+
+@mixin f34 {
+    font-size: 34px;
+    line-height: 37px;
+}
+
+@mixin f42 {
+    font-size: 42px;
+    line-height: 50px;
 }
 
 @mixin flex($direction, $gap) {
     display: flex;
     flex-direction: $direction;
     gap: $gap;
+}
+
+@mixin max700 {
+    width: 700px;
+    margin: auto;
+}
+
+@mixin imgBorder {
+    border-radius: 10px;
+    border: 1px solid $white;
+}
+
+@mixin bgBlack {
+    background-color: $black;
+    color: $white;
 }

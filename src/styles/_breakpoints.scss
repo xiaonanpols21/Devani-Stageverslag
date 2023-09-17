@@ -10,6 +10,10 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+    p {
+        @include f18;
+    }
+
     // Header
     header {
         padding: 30px 60px;
@@ -55,6 +59,28 @@
             position: absolute;
             right: 60px;
             bottom: 50px;
+        }
+    }
+
+    // Sec
+    .sub-dec {
+        @include f42;
+        @include max700;
+        margin-bottom: 30px;
+    }
+
+    .sec {
+        p {
+            @include max700;
+        }
+    }
+
+    .carousel {
+        padding: 0px;
+        margin: 100px -20px 0px -20px;
+        img {
+            width: 100%;
+            height: 360px;
         }
     }
 }

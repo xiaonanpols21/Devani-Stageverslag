@@ -35,21 +35,96 @@ a {
     }
 }
 
+p {
+    @include f16;
+}
+
+img {
+    object-fit: cover;
+}
+
 .i {
     height: 30px;
     color: $green;
 }
 
 .sub-dec {
-    @include
+    @include f34;
+    position: relative;
+    margin: 10px 0px 30px 0px;
+
+    &:before {
+        border-bottom: 4px solid $green;
+        content: "";
+        width: 50px;
+        position: absolute;
+        top: -10px;
+    }
 }
 
 .open {
     display: block;
 }
 
-@import "./_breakpoints";
-
+// Section
 .sec {
     padding: 50px 20px;
 }
+
+.sec-1 {
+    margin-top: 50px;
+}
+
+.sec-3 {
+    @include flex(column, 20px);
+    @include bgBlack;
+
+    .sub-dec {
+        margin-bottom: 10px;
+        order: -1;
+    }
+
+    h3 {
+        @include f24;
+    }
+
+    img {
+        @include imgBorder;
+        order: -1;
+    }
+}
+
+.sec-4 {
+    @include bgBlack;
+    
+    img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .sub-dec {
+            @include f20;
+        }
+    }
+
+    article {
+        @include imgBorder;
+    }
+}
+
+.carousel {
+    @include flex(row, 0px);
+    overflow-x: auto;
+    margin: 50px -20px 0px 0px;
+    padding-right: 20px;
+
+    img {
+        @include imgBorder;
+    }
+}
+
+@import "./_breakpoints";
