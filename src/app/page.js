@@ -73,6 +73,8 @@ export default function Home() {
                             />
                             <h4 className="sub-dec">Bikkeltraining</h4>
                         </Link>
+                    </article>
+                    <article>
                         <Link a href="/">
                             <Image
                                 src="/img/mockup.jpg" 
@@ -82,6 +84,19 @@ export default function Home() {
                             />
                             <h4 className="sub-dec">Bikkeltraining</h4>
                         </Link>
+                    </article>
+                    <article>
+                        <Link a href="/">
+                            <Image
+                                src="/img/mockup.jpg" 
+                                width={250}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            <h4 className="sub-dec">Bikkeltraining</h4>
+                        </Link>
+                    </article>
+                    <article>
                         <Link a href="/">
                             <Image
                                 src="/img/mockup.jpg" 

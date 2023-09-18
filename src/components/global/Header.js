@@ -16,14 +16,10 @@ import {
 
 export default function Header() {
 
-    // Function open and close menu
+    // Function to toggle the menu
     const [showMenu, setShowMenu] = useState(false);
-    const openMenu = () => {
-        setShowMenu(true);
-    };
-
-    const closeMenu = () => {
-        setShowMenu(false);
+    const toggleMenu = () => {
+        setShowMenu(prevShowMenu => !prevShowMenu);
     };
 
     return (
@@ -36,8 +32,8 @@ export default function Header() {
                     alt="Devani logo"
                 />
                 <button 
-                    className={`button-class ${(showMenu ? 'open' : '')}`}
-                    onClick={showMenu ? closeMenu : openMenu}
+                   className={`${showMenu ? 'open' : ''}`}
+                   onClick={toggleMenu}
                 >
                     <FontAwesomeIcon
                         icon={faBars}
@@ -45,8 +41,8 @@ export default function Header() {
                     />
                 </button>
             </header>
-            <nav className={`nav-class ${(showMenu ? 'open' : '')}`}>
-                <button onClick={closeMenu}>
+            <nav className={`${showMenu ? 'open' : ''}`}>
+                <button onClick={toggleMenu}>
                     <FontAwesomeIcon
                         icon={faXmark}
                         className='i'
