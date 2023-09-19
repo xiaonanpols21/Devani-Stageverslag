@@ -70,6 +70,8 @@
     }
 
     .sec {
+        padding: 50px 60px;
+
         p {
             @include max700;
         }
@@ -77,11 +79,64 @@
 
     .carousel {
         padding: 0px;
-        margin: 100px -20px 0px -20px;
+        margin: 100px -60px 0px -60px;
+
         img {
             width: 100%;
             height: 360px;
         }
+    }
+
+    .sec-3 {
+        position: relative;
+        margin-top: 50px;
+        padding-top: 100px;
+
+        .sub-dec {
+            @include subDecDelete;
+            margin-bottom: 10px;
+        }
+
+        p {
+            width: 500px;
+            margin: 0px;
+        }
+
+        img {
+            position: absolute;
+            left: 50%;
+            top: -50px;
+            width: 340px;
+            height: 340px;
+        }
+    }
+
+    .sec-4, .sec-5 {
+        .sub-dec {
+            @include subDecDelete;
+            margin-bottom: 30px;
+        }
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0px -60px;
+
+        img {
+            height: 250px;
+        }
+
+        .sub-dec {
+            margin: 40px 30px 0px 30px;
+        }
+
+        a {
+            padding-bottom: 70px;
+        }
+    }
+
+    .sec-5 {
+        padding-bottom: 100px;
     }
 }
 

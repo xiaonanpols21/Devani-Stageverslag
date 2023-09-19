@@ -61,7 +61,7 @@ export default function Home() {
             </section>
             <section className="sec sec-4">
                 <h2 className="sub-dec">Werkzaamheden</h2>
-                <section>
+                <section className="cards">
                     <h3 className="visually-hidden">Werkzaamheden carousel</h3>
                     <article>
                         <Link a href="/">
@@ -107,7 +107,66 @@ export default function Home() {
                             <h4 className="sub-dec">Bikkeltraining</h4>
                         </Link>
                     </article>
-
+                </section>
+            </section>
+            <section className="sec sec-5">
+                <h2 className="sub-dec">Leerdoelen</h2>
+                <section className="cards">
+                    <h3 className="visually-hidden">Werkzaamheden carousel</h3>
+                    <article>
+                        <Link a href="/">
+                            <Image
+                                src="/img/mockup.jpg" 
+                                width={250}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
+                        </Link>
+                    </article>
+                    <article>
+                        <Link a href="/">
+                            <Image
+                                src="/img/mockup.jpg" 
+                                width={250}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
+                        </Link>
+                    </article>
+                    <article>
+                        <Link a href="/">
+                            <Image
+                                src="/img/mockup.jpg" 
+                                width={250}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
+                        </Link>
+                    </article>
+                    <article>
+                        <Link a href="/">
+                            <Image
+                                src="/img/mockup.jpg" 
+                                width={250}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
+                        </Link>
+                    </article>
+                </section>
+                <section className="leerdoelen-pop-up">
+                    <h3 className="visually-hidden">Leerdoelen context</h3>
+                    
+                    <div>
+                        <h4 className="sub-dec">1: Samen ontwerpen</h4>
+                        <p>Als rol: Front-end developer meedoen met het ontwerpproces binnen Devani om te weten hoe ik mijn rol kan uitvoeren binnen een ontwerpproces en hoe anderen zijn rol uitvoeren binnen het ontwerpproces.</p>
+                        <h5>Reflectie</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+                    </div>
                 </section>
             </section>
         </>

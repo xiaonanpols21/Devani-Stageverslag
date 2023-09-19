@@ -78,6 +78,7 @@ img {
 .sec-3 {
     @include flex(column, 20px);
     @include bgBlack;
+    padding-top: 100px;
 
     .sub-dec {
         margin-bottom: 10px;
@@ -94,26 +95,17 @@ img {
     }
 }
 
-.sec-4 {
+.sec-4, .sec-5 {
     @include bgBlack;
     
     img {
         width: 100%;
         border-radius: 10px 10px 0px 0px;
     }
+}
 
-    section {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        .sub-dec {
-            @include f20;
-        }
-    }
-
-    article {
-        @include imgBorder;
-    }
+article {
+    @include imgBorder;
 }
 
 .carousel {
@@ -124,6 +116,62 @@ img {
 
     img {
         @include imgBorder;
+    }
+}
+
+.cards {
+    @include grid(1fr 1fr, 0px);
+
+    .sub-dec {
+        @include f20;
+        margin: 20px 10px 0px 10px;
+    }
+
+    img {
+        height: 150px;
+    }
+
+    a {
+        display: block;
+        padding-bottom: 50px;
+        color: $white;
+    }
+}
+
+.sec-5 {
+    padding-bottom: 100px;
+}
+
+.sub-dec-ld {
+    @include flex(row, 10px);
+    line-height: 20px !important;
+
+    &:before {
+        top: -12px;
+    }
+
+    span {
+        display: block;
+    }
+}
+
+.leerdoelen-pop-up {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba($black, 0.5);
+
+    div {
+        padding: 20px;
+        background-color: $white;
+        color: $black;
+    }
+
+    .sub-dec {
+        @include f24;
     }
 }
 

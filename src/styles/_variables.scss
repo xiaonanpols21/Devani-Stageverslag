@@ -50,6 +50,12 @@ $trans4: .4s;
     gap: $gap;
 }
 
+@mixin grid($clmn, $gap) {
+    display: grid;
+    grid-template-columns: $clmn;
+    gap: $gap;
+}
+
 @mixin max700 {
     width: 700px;
     margin: auto;
@@ -63,4 +69,9 @@ $trans4: .4s;
 @mixin bgBlack {
     background-color: $black;
     color: $white;
+}
+
+@mixin subDecDelete {
+    width: fit-content;
+    margin: 0px;
 }
