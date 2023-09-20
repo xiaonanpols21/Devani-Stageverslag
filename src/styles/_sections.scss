@@ -1,0 +1,70 @@
+// Section titles
+.sub-dec {
+    @include f34;
+    position: relative;
+    margin: 10px 0px 30px 0px;
+
+    &:before {
+        border-bottom: 4px solid $green;
+        content: "";
+        width: 50px;
+        position: absolute;
+        top: -10px;
+    }
+}
+
+.sub-dec-ld {
+    @include flex(row, 10px);
+    line-height: 20px !important;
+    text-align: left;
+
+    &:before {
+        top: -12px;
+    }
+
+    span {
+        display: block;
+    }
+}
+
+// Sections
+.sec {
+    padding: 50px 20px;
+}
+
+.sec-1 {
+    margin-top: 50px;
+}
+
+.sec-3 {
+    @include flex(column, 20px);
+    @include bgBlack;
+    padding-top: 100px;
+
+    .sub-dec {
+        margin-bottom: 10px;
+        order: -1;
+    }
+
+    h3 {
+        @include f24;
+    }
+
+    img {
+        @include imgBorder;
+        order: -1;
+    }
+}
+
+.sec-4, .sec-5 {
+    @include bgBlack;
+    
+    img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+.sec-5 {
+    padding-bottom: 100px;
+}

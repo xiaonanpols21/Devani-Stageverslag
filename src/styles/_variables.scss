@@ -24,6 +24,11 @@ $trans4: .4s;
     line-height: 30px;
 }
 
+@mixin f22 {
+    font-size: 22px;
+    line-height: 36px;
+}
+
 @mixin f24 {
     font-size: 24px;
     line-height: 40px;
@@ -74,4 +79,10 @@ $trans4: .4s;
 @mixin subDecDelete {
     width: fit-content;
     margin: 0px;
+}
+
+@mixin buttonDeleteStyle {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
