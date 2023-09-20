@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import PlayIcon from "../../public/img/play.svg"
+import PlayIcon from "../../public/img/play.svg";
 
 export default function Hero() {
     return (

@@ -2,6 +2,8 @@
 import Hero from "@/components/Hero";
 import Image from "next/image";
 import Link from "next/link";
+import Emke from "../../public/img/emke.jpg";
+import Mockup from "../../public/img/mockup.jpg";
 
 import { useState } from "react";
 
@@ -70,7 +72,7 @@ export default function Home() {
                 <h3>Emke Douwe Ottema</h3>
                 <p>Proident ex dolor laboris do veniam reprehenderit officia laboris cupidatat incididunt cupidatat excepteur fugiat do.</p>
                 <Image
-                    src="/img/emke.jpg" 
+                    src={Emke}
                     width={150}
                     height={150}
                     alt="Stagebegeleider"
@@ -83,7 +85,7 @@ export default function Home() {
                     <article>
                         <Link href="/">
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -94,7 +96,7 @@ export default function Home() {
                     <article>
                         <Link href="/">
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -105,7 +107,7 @@ export default function Home() {
                     <article>
                         <Link href="/">
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -116,7 +118,7 @@ export default function Home() {
                     <article>
                         <Link href="/">
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -124,6 +126,7 @@ export default function Home() {
                             <h4 className="sub-dec">Bikkeltraining</h4>
                         </Link>
                     </article>
+                    
                 </section>
             </section>
             <main className="sec sec-5">
@@ -136,7 +139,7 @@ export default function Home() {
                          onClick={toggleMenu}
                         >
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -150,7 +153,7 @@ export default function Home() {
                          onClick={toggleMenu}
                         >
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -164,7 +167,7 @@ export default function Home() {
                          onClick={toggleMenu}
                         >
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"
@@ -178,7 +181,7 @@ export default function Home() {
                          onClick={toggleMenu}
                         >
                             <Image
-                                src="/img/mockup.jpg" 
+                                src={Mockup}
                                 width={250}
                                 height={300}
                                 alt="Picture of the author"

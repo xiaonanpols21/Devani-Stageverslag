@@ -3,6 +3,7 @@
 @import "./hero";
 @import "./sections";
 @import "./functions";
+@import "./werkzaamheden";
 
 * {
     margin: 0px;
@@ -48,6 +49,15 @@ img {
 .i {
     height: 30px;
     color: $green;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba($black, 0.7);
 }
 
 // JS
