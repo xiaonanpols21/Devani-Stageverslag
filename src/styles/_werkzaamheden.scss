@@ -17,5 +17,13 @@
 }
 
 .main-werkzaamheden {
-    
+    padding: 50px 20px;
+
+    img {
+        width: 100%;
+    }
+
+    button {
+        @include btn1;
+    }
 }

@@ -86,3 +86,20 @@ $trans4: .4s;
     background-color: transparent;
     cursor: pointer;
 }
+
+@mixin btn1 {
+    @include f18;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 50px;
+        background-image: url(../../public/img/play.svg);
+        background-size: contain;
+    }
+}
