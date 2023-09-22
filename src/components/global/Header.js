@@ -25,12 +25,14 @@ export default function Header() {
     return (
         <>
             <header>
-                <Image
-                    src={Logo}
-                    width={114}
-                    height={25}
-                    alt="Devani logo"
-                />
+                <Link href="/">
+                    <Image
+                        src={Logo}
+                        width={114}
+                        height={25}
+                        alt="Devani logo"
+                    />
+                </Link>
                 <button 
                    className={`${showMenu ? 'open' : ''}`}
                    onClick={toggleMenu}

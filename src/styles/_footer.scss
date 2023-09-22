@@ -1,5 +1,41 @@
 footer {
+    @include flex(column, 10px);
     background-color: $black;
     padding: 50px 20px;
     color: $white;
+
+    a:first-of-type {
+        order: -1;
+        margin-bottom: calc(50px - 10px);
+    }
+
+    h1 {
+        @include f18;
+        font-weight: bold;
+    }
+
+    ul {
+        @include f16;
+        line-height: 35px;
+    }
+
+    a {
+        color: $white;
+    }
+
+    section {
+        padding: 20px;
+        margin: 40px -20px -50px -20px;
+        background-color: $white;
+        color: $black;
+        text-align: center;
+
+        a {
+            color: $black;
+        }
+
+        ul {
+            line-height: 28px;
+        }
+    }
 }
