@@ -18,7 +18,7 @@
 
 .main-werkzaamheden {
     @include flex(column, 50px);
-    padding: 50px 20px;
+    padding: 50px 20px 100px 20px;
 
     img {
         width: 100%;

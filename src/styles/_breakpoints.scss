@@ -138,6 +138,35 @@
     .sec-5 {
         padding-bottom: 100px;
     }
+
+    // Werkzaamheden
+    .hero-werk h1 {
+        @include max700;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .main-werkzaamheden {
+        @include max700;
+    }
+
+    // Footer
+    footer {
+        padding: 50px 60px 100px 60px;
+
+        > ul:first-of-type {
+            @include grid(200px 200px, 0px 100px);
+        }
+
+        section {
+            margin: 40px -60px -100px -60px;
+
+            ul {
+                @include flex(row, 50px);
+                justify-content: center;
+            }
+        }
+    }
 }
 
 // X-Large devices (large desktops, 1200px and up)
