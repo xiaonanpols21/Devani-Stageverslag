@@ -17,6 +17,7 @@
 }
 
 .main-werkzaamheden {
+    @include flex(column, 50px);
     padding: 50px 20px;
 
     img {
@@ -25,5 +26,11 @@
 
     button {
         @include btn1;
+        margin-top: calc(-50px + 30px);
+    }
+
+    h2 {
+        @include f22;
+        margin-bottom: calc(-50px + 10px);
     }
 }

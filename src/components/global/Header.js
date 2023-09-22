@@ -27,8 +27,8 @@ export default function Header() {
             <header>
                 <Image
                     src={Logo}
-                    width={120}
-                    height={27}
+                    width={114}
+                    height={25}
                     alt="Devani logo"
                 />
                 <button 

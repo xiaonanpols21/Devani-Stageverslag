@@ -1,8 +1,10 @@
 import '../styles/main.scss';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
-import Script from 'next/script';
+import Image from 'next/image';
+import Link from 'next/link';
 import Header from '@/components/global/Header';
+import Logo from "../../public/img/logo.svg";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +27,18 @@ export default function RootLayout({ children }) {
     <body>
         <Header />
         {children}
+        <footer>
+            <h1>Navigeren</h1>
+            <ul>
+                <li><Link href=""></Link></li>
+            </ul>
+            <Image
+                src={Logo}
+                width={114}
+                height={25}
+                alt="Devani logo"
+            />
+        </footer>
     </body>
     </html>
   );
