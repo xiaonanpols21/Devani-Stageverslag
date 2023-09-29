@@ -83,7 +83,7 @@ export default function Home() {
                 <section className="cards">
                     <h3 className="visually-hidden">Werkzaamheden carousel</h3>
                     <article>
-                        <Link href="/">
+                        <Link href="/werkzaamheden">
                             <Image
                                 src={Mockup}
                                 width={250}
