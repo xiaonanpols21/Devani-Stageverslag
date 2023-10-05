@@ -1,6 +1,12 @@
 import Image from "next/image";
-import WerkThumbnail from "../../../public/img/mockup.jpg";
-export default function Werkzaamheden() {
+import WerkThumbnail from "../../../../public/img/mockup.jpg";
+import data from '../../../../public/data/werkzaamheden.json';
+
+console.log(data);
+
+export default async function Werkzaamheden({params}) {
+    
+
     return (
         <>
         <section className="hero-werk">
