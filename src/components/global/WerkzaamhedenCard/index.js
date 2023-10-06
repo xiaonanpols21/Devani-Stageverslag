@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function WerkzaamhedenCard({img, title}) {
+export default function WerkzaamhedenCard({img, title, slug}) {
     return (
         <article>
-            <Link href="/werkzaamheden">
+            <Link href={`/werkzaamheden/${slug}`}>
                 <Image
                     src={`/img/${img}`} 
                     width={250}

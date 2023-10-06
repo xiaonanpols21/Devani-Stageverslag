@@ -1,11 +1,11 @@
 import Image from "next/image";
 import WerkThumbnail from "../../../../public/img/mockup.jpg";
 
-export default async function Werkzaamheden({params}) {
+export default function Werkzaamheden({title}) {
     return (
         <>
         <section className="hero-werk">
-            <h1 className="sub-dec">Bikkeltraining</h1>
+            <h1 className="sub-dec">{title}</h1>
             <Image
                 src={WerkThumbnail}
                 width={150}

@@ -17,8 +17,6 @@ import {
     faXmark
 } from "@fortawesome/free-solid-svg-icons";
 
-console.log(data);
-
 export default function Home() {
 
     // Function to toggle the menu
@@ -93,6 +91,7 @@ export default function Home() {
                                 key = {key}
                                 title = {item.name}
                                 img = {item.img}
+                                slug = {item.slug}
                             />
                         );
                     })}
