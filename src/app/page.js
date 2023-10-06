@@ -4,6 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Emke from "../../public/img/emke.jpg";
 import Mockup from "../../public/img/mockup.jpg";
+import data from '../../public/data/werkzaamheden.json'; 
+
+import WerkzaamhedenCard from "@/components/global/WerkzaamhedenCard";
 
 import { useState } from "react";
 
@@ -13,6 +16,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faXmark
 } from "@fortawesome/free-solid-svg-icons";
+
+console.log(data);
 
 export default function Home() {
 
@@ -82,51 +87,15 @@ export default function Home() {
                 <h2 className="sub-dec">Werkzaamheden</h2>
                 <section className="cards">
                     <h3 className="visually-hidden">Werkzaamheden carousel</h3>
-                    <article>
-                        <Link href="/werkzaamheden">
-                            <Image
-                                src={Mockup}
-                                width={250}
-                                height={300}
-                                alt="Picture of the author"
+                    {data.map((item, key) => {
+                        return (
+                            <WerkzaamhedenCard 
+                                key = {key}
+                                title = {item.name}
+                                img = {item.img}
                             />
-                            <h4 className="sub-dec">Bikkeltraining</h4>
-                        </Link>
-                    </article>
-                    <article>
-                        <Link href="/">
-                            <Image
-                                src={Mockup}
-                                width={250}
-                                height={300}
-                                alt="Picture of the author"
-                            />
-                            <h4 className="sub-dec">Bikkeltraining</h4>
-                        </Link>
-                    </article>
-                    <article>
-                        <Link href="/">
-                            <Image
-                                src={Mockup}
-                                width={250}
-                                height={300}
-                                alt="Picture of the author"
-                            />
-                            <h4 className="sub-dec">Bikkeltraining</h4>
-                        </Link>
-                    </article>
-                    <article>
-                        <Link href="/">
-                            <Image
-                                src={Mockup}
-                                width={250}
-                                height={300}
-                                alt="Picture of the author"
-                            />
-                            <h4 className="sub-dec">Bikkeltraining</h4>
-                        </Link>
-                    </article>
-                    
+                        );
+                    })}
                 </section>
             </section>
             <main className="sec sec-5">
