@@ -24,7 +24,7 @@
         width: 100%;
     }
 
-    button {
+    > a {
         @include btn1;
         margin-top: calc(-50px + 30px);
     }

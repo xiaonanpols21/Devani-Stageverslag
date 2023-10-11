@@ -1,7 +1,6 @@
 import Image from "next/image";
-import WerkThumbnail from "../../../../public/img/mockup.jpg";
+import Link from "next/link";
 import data from '../../../../public/data/werkzaamheden.json';
-
 export default function Werkzaamheden({ params }) {
     const { slug } = params;
     const currentItem = data.find(item => item.slug === slug);
@@ -32,7 +31,7 @@ export default function Werkzaamheden({ params }) {
                     height={150}
                     alt="Werkzaamheden thumbnail"
                 />
-                <button>Bekijk demo</button>
+                <Link href="/werkzaamheden/bikkeltraining-wireframes.mov" target="_blank">Bekijk demo</Link>
                 <div dangerouslySetInnerHTML={{__html: content}}></div>
             </main>
         </div>

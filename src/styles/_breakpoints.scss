@@ -160,6 +160,10 @@
     .main-werkzaamheden {
         @include max700;
 
+        img {
+            height: 300px;
+        }
+
         h2 {
             @include f24;
         }
