@@ -1,8 +1,10 @@
 import Image from "next/image";
 import WerkThumbnail from "../../../../public/img/mockup.jpg";
+import data from '../../../../public/data/werkzaamheden.json'; 
 
-export default function Werkzaamheden({ werkzaamheden }) {
-    const { title, img, content } = werkzaamheden;
+export default async function Werkzaamheden({ params }) {
+
+    const data = await getWerkzaamheden(params.slug)
 
     return (
         <div>
@@ -31,13 +33,19 @@ export default function Werkzaamheden({ werkzaamheden }) {
         </div>
     );
 }
+
+function getWerkzaamheden(slug) {
+    // return data.map((item, key) => ({
+    //     slug: item.slug
+    // }));
+}
+
 export async function generateStaticParams({ params }) {
-    const data = await fetch('../../../../public/data/werkzaamheden.json');
-    const werkzaamhedenData = await data.json();
-    const werkzaamheden = werkzaamhedenData.find((item) => item.slug === params.slug);
-    return {
-       props: {
-         werkzaamheden,
-       },
-    };
+    //const data = await fetch('./../../');
+    //const werkzaamhedenData = await data.json();
+    //const werkzaamheden = werkzaamhedenData.find((item) => item.slug === params.slug);
+    
+    return data.map((item, key) => ({
+        slug: item.slug
+    }));
 }
