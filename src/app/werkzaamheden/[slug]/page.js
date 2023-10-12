@@ -1,15 +1,20 @@
 import Image from "next/image";
-import WerkThumbnail from "../../../../public/img/mockup.jpg";
-import data from '../../../../public/data/werkzaamheden.json'; 
+import Link from "next/link";
+import data from '../../../../public/data/werkzaamheden.json';
+export default function Werkzaamheden({ params }) {
+    const { slug } = params;
+    const currentItem = data.find(item => item.slug === slug);
 
-export default async function Werkzaamheden({ params }) {
+    if (!currentItem) {
+        return <div>Not found</div>;
+    }
 
-    const data = await getWerkzaamheden(params.slug)
+    const { name, img, content } = currentItem;
 
     return (
         <div>
             <section className="hero-werk">
-                <h1 className="sub-dec">{title}</h1>
+                <h1 className="sub-dec">{name}</h1>
                 <Image
                     src={`/img/${img}`} 
                     width={150}
@@ -26,26 +31,17 @@ export default async function Werkzaamheden({ params }) {
                     height={150}
                     alt="Werkzaamheden thumbnail"
                 />
-                <button>Bekijk demo</button>
-                <h2>Wat heb ik gedaan?</h2>
-                <p>{content}</p>
+                <Link href="/werkzaamheden/bikkeltraining-wireframes.mov" target="_blank">Bekijk demo</Link>
+                <div dangerouslySetInnerHTML={{__html: content}}></div>
             </main>
         </div>
     );
 }
 
-function getWerkzaamheden(slug) {
-    // return data.map((item, key) => ({
-    //     slug: item.slug
-    // }));
-}
-
-export async function generateStaticParams({ params }) {
-    //const data = await fetch('./../../');
-    //const werkzaamhedenData = await data.json();
-    //const werkzaamheden = werkzaamhedenData.find((item) => item.slug === params.slug);
-    
-    return data.map((item, key) => ({
-        slug: item.slug
+export async function generateStaticParams() {
+    return data.map((item) => ({
+        params: {
+            slug: item.slug
+        }
     }));
 }

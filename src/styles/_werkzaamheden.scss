@@ -24,13 +24,46 @@
         width: 100%;
     }
 
-    button {
+    > a {
         @include btn1;
         margin-top: calc(-50px + 30px);
     }
 
     h2 {
         @include f22;
-        margin-bottom: calc(-50px + 10px);
+        margin-top: 50px;
+
+        &:first-of-type {
+            margin: 0px;
+        }
+    }
+
+    h3 {
+        @include f18;
+        margin: 30px 0px -10px 0px;
+
+        &:first-of-type {
+            margin: 0px;
+        }
+    }
+
+    h4 {
+        @include f16;
+        margin-top: 10px;
+    }
+
+    ul {
+        @include f16;
+
+        li {
+            list-style: disc;
+            margin-left: 20px;
+
+            div {
+                &:before {
+                    content: "- ";
+                }
+            }
+        }
     }
 }
