@@ -33,6 +33,7 @@ export default function Werkzaamheden({ params }) {
                 />
                 <Link href="/werkzaamheden/bikkeltraining-wireframes.mov" target="_blank">Bekijk demo</Link>
                 <div dangerouslySetInnerHTML={{__html: content}}></div>
+                
             </main>
         </div>
     );

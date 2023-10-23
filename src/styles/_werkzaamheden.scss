@@ -24,6 +24,10 @@
         width: 100%;
     }
 
+    p {
+        margin-bottom: 10px;
+    }
+
     > a {
         @include btn1;
         margin-top: calc(-50px + 30px);
@@ -33,17 +37,31 @@
         @include f22;
         margin-top: 50px;
 
-        &:first-of-type {
+        &:first-of-type, &:last-of-type {
             margin: 0px;
+        }
+
+        &:last-of-type {
+            margin-top: 30px;
         }
     }
 
     h3 {
         @include f18;
-        margin: 30px 0px -10px 0px;
+        margin: 40px 0px 0px 0px;
+        position: relative;
+
+        &::before {
+            content: "";
+            border-bottom: 1px solid $gray;
+            width: 100%;
+            position: absolute;
+            top: -20px;
+        }
 
         &:first-of-type {
             margin: 0px;
+            margin-top: 30px;
         }
     }
 
