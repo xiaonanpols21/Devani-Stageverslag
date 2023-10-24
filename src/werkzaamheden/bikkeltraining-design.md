@@ -31,35 +31,4 @@ Netjes werken door Artboards goed te noemen met hoofdletter, Artboard op verschi
 
 <h2>Versies</h2><h3>1.0</h3><a target="_blank" href="../img/bikkeltraining-design-v1.jpg"><img src="../img/bikkeltraining-design-v1.jpg"></img></a><p>Hier ben ik in blokken gaan werken met ronde hoeken. Kleur oranje is gebruikt bij knoppen en sections.</p><h3>2.0</h3><a target="_blank" href="../img/bikkeltraining-design-v2.jpg"><img src="../img/bikkeltraining-design-v2.jpg"></img></a><p>Met dit design heb ik nieuwe vorm knop geleerd dat het ook een tekstje kan zijn met ee underline. Agenda section is erg anders geworden. Hierbij is heel erg gekeken naar best practices. Ook is gespeeld met typografie om ook op die manier te ontwerpen.</p><h3>3.0</h3><a target="_blank" href="../img/bikkeltraining-design-v3.jpg"><img src="../img/bikkeltraining-design-v3.jpg"></img></a><p>Het gepresenteerde design is heel erg anders dan vorige designs. Meer zwart en rood is toegevoegd om het meer eigen te maken voor Bikkeltraining. Zwart, hoofdletters voor stoere sport en wit, kleine letters en lachende hero vrouw voor meer vriendelijkheid.</p>
 
-<h2>Presentatie</h2>
-<img alt='Bikkeltraining presentatie' src="../../img/bikkeltraining-presentatie.jpg">
-<h3>Wat heb ik gepresenteerd?</h3>
-<p>Op 12-10-23 is het eerste design laten zien. Ik vertelde wat er te zien was en waarom sommige design keuzes zijn gemaakt zoals:</p>
-<ul>
-<li>Stoer, sterk</li><div>Zwarte kleuren, hoofletters</div>
-<li>Vriendelijk</li><div>Wit, ronde hoeken, fotografie</div>
-<li>Vacht shape</li><div>De shape is schuin gezet om te visualiseren dat je beter wilt worden, hogerop wil komen</div>
-</ul>
-<p>Ronald vond het een mooi design, had nog enkele opmerkingen:</p>
-<ul>
-<li>Personal training op training pagina</li>
-<li>Wie is Bikkeltraining > Wat</li>
-<li>Kleur Rood</li>
-<li>Nieuwsberichten</li>
-</ul>
-<p>Er zal gekeken worden naar de feedback van Ronald en dat zal toegepast worden met het maken van de andere pagina’s van de website.</p>
-<h3>Wat ging goed?</h3>
-<p>Het was leuk om voor het eerst te presentatie met een echte klant. Het presenteren was niet heel spannend. Het was chill en eenvoudig. Presenteren werd gedaan zittend en met laptop. Door te blijven zitten, is het minder presentatie vorm. Want als ik denk aan presenteren is dat je gaat staan en dat je slides hebt. Maar dat was niet zo in dit geval. Hier heb je alleen het design wat je in Sketch laat zien.</p>
-<p>Emke vond het goed dat ik uitlegde waarom er bepaalde keuzes zijn gemaakt in het design en dat ik niet zeg: ‘Dit is het’.</p>
-<h3>Wat kan beter?</h3>
-<p>Tijdens mijn presentatie zei ik ‘Met een leuke foto’. Maar dat hoorde Ronald niet. Dus de volgende keer wanneer ik ga presenteren moet ik beter articuleren.</p>
-<p>Verder heeft Emke mij feedback gegeven over hoe ik beter kan presenteren met volgende punten:</p>
-<ul>
-<li>Leg aan begin van presentatie uit wat je gaat vertellen, wat het doel is en wat de klant kan verwachten.</li>
-<li>Heb een duidelijk einde, vertel aan het publiek wat je hebt doorgenomen, wat de vervolg stappen zijn (gekregen feedback van de klant) en wat er nu gaat gebeuren.</li>
-<li>Je presenteert via de laptop, maar daardoor ga je alleen maar naar het scherm kijken en niet naar het publiek toe. Zo kan het ook zijn dat het publiek je minder goed hoort. Dus ga anders schuint zitten zodat je het publiek aan kan kijken als het publiek naast je zit bijvoorbeeld.</li>
-<li>Aankijken is ook belangrijk zodat je de gezichtsuitdrukkingen kan zien als ze raar beginnen te kijken als je wat zegt.</li>
-</ul>
-<p>Ik zal deze feedback opnemen en meenemen naar mijn volgende presentatie</p>
-<h3>Wat heb ik geleerd?</h3>
-<p>Met de tips van Emke heb ik nieuwe inzichten gekregen om beter te presenteren.</p>
+<h2>Presentatie</h2><img alt='Bikkeltraining presentatie' src="../../img/bikkeltraining-presentatie.jpg"><h3>Wat heb ik gepresenteerd?</h3><p>Op 12-10-23 is het eerste design laten zien. Ik vertelde wat er te zien was en waarom sommige design keuzes zijn gemaakt zoals:</p><ul><li>Stoer, sterk</li><div>Zwarte kleuren, hoofletters</div><li>Vriendelijk</li><div>Wit, ronde hoeken, fotografie</div><li>Vacht shape</li><div>De shape is schuin gezet om te visualiseren dat je beter wilt worden, hogerop wil komen</div></ul><p>Ronald vond het een mooi design, had nog enkele opmerkingen:</p><ul><li>Personal training op training pagina</li><li>Wie is Bikkeltraining > Wat</li><li>Kleur Rood</li><li>Nieuwsberichten</li></ul><p>Er zal gekeken worden naar de feedback van Ronald en dat zal toegepast worden met het maken van de andere pagina’s van de website.</p><h3>Wat ging goed?</h3><p>Het was leuk om voor het eerst te presentatie met een echte klant. Het presenteren was niet heel spannend. Het was chill en eenvoudig. Presenteren werd gedaan zittend en met laptop. Door te blijven zitten, is het minder presentatie vorm. Want als ik denk aan presenteren is dat je gaat staan en dat je slides hebt. Maar dat was niet zo in dit geval. Hier heb je alleen het design wat je in Sketch laat zien.</p><p>Emke vond het goed dat ik uitlegde waarom er bepaalde keuzes zijn gemaakt in het design en dat ik niet zeg: ‘Dit is het’.</p><h3>Wat kan beter?</h3><p>Tijdens mijn presentatie zei ik ‘Met een leuke foto’. Maar dat hoorde Ronald niet. Dus de volgende keer wanneer ik ga presenteren moet ik beter articuleren.</p><p>Verder heeft Emke mij feedback gegeven over hoe ik beter kan presenteren met volgende punten:</p><ul><li>Leg aan begin van presentatie uit wat je gaat vertellen, wat het doel is en wat de klant kan verwachten.</li><li>Heb een duidelijk einde, vertel aan het publiek wat je hebt doorgenomen, wat de vervolg stappen zijn (gekregen feedback van de klant) en wat er nu gaat gebeuren.</li><li>Je presenteert via de laptop, maar daardoor ga je alleen maar naar het scherm kijken en niet naar het publiek toe. Zo kan het ook zijn dat het publiek je minder goed hoort. Dus ga anders schuint zitten zodat je het publiek aan kan kijken als het publiek naast je zit bijvoorbeeld.</li><li>Aankijken is ook belangrijk zodat je de gezichtsuitdrukkingen kan zien als ze raar beginnen te kijken als je wat zegt.</li></ul><p>Ik zal deze feedback opnemen en meenemen naar mijn volgende presentatie</p><h3>Wat heb ik geleerd?</h3><p>Met de tips van Emke heb ik nieuwe inzichten gekregen om beter te presenteren.</p>
