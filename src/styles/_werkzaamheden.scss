@@ -98,4 +98,28 @@
             }
         }
     }
+
+    ol {
+        @include f16;
+        counter-reset: item;
+        list-style-type: none;
+
+
+        li {
+            &::before {
+                @include f16;
+                content: counter(item) ".";
+                counter-increment: item;
+                margin-right: 10px;
+            }
+
+            div {
+                &:before {
+                    content: "- ";
+                    margin-left: 20px;
+                }
+            }
+        }
+        
+    }
 }
