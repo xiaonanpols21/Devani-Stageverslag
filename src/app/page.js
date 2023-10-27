@@ -92,6 +92,7 @@ export default function Home() {
                                 title = {item.name}
                                 img = {item.img}
                                 slug = {item.slug}
+                                demo = {item.demo}
                             />
                         );
                     })}

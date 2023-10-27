@@ -9,7 +9,7 @@ export default function Werkzaamheden({ params }) {
         return <div>Not found</div>;
     }
 
-    const { name, img, content } = currentItem;
+    const { name, img, content, demo } = currentItem;
 
     return (
         <div>
@@ -31,7 +31,7 @@ export default function Werkzaamheden({ params }) {
                     height={150}
                     alt="Werkzaamheden thumbnail"
                 />
-                <Link href="/werkzaamheden/bikkeltraining-wireframes.mov" target="_blank">Bekijk demo</Link>
+                <Link href={demo} target="_blank">Bekijk demo</Link>
                 <div className="content" dangerouslySetInnerHTML={{__html: content}}></div>
                 
             </main>
