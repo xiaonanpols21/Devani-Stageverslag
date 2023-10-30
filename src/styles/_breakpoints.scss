@@ -160,7 +160,7 @@
     .main-werkzaamheden {
         @include max700;
 
-        img {
+        > img {
             height: 300px;
         }
 

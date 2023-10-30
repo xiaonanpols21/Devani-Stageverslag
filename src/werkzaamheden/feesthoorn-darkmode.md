@@ -1,0 +1,22 @@
+---
+title: 'Bikkeltraining Wireframes'
+img: '../public/mockup.jpg'
+---
+
+<h2>Wat heb ik gedaan?</h2>
+<p>Voor <a href='https://www.feesthoorn.nl/'>Feesthoorn </a>is er al een nieuw design ontworpen en geprogrammeerd. Alleen moest hij nog in dark mode omgezet worden. Dat mocht ik gaan doen. </p>
+<p>De nieuwe website stond al op Github, die moest ik clonen naar mijn eigen computer. Daarna kon ik simpel weg in een dark mode Sass file de aanpassingen toevoegen.</p>
+<a target="_blank" href="../werkzaamheden/feesthoorn-dark-mode.jpg"><img src="../werkzaamheden/feesthoorn-dark-mode.jpg"></img></a>
+<p>Daarna zijn er een paar aanpassingen gedaan aan de website om gebruiksvriendelijkheid te verbeteren:</p>
+<ul>
+<li>Cards zelfde hoogte</li>
+<li>Categorie in cards verwijderen</li>
+<li>BTW melding verplaatsen</li>
+<li>Video border-radius toevoegen</li>
+<li>Paginering underline</li>
+</ul>
+<h2>Wat heb ik geleerd?</h2>
+<p>Met deze opdrachten heb ik geleerd dat je een website moet blijven aanpassen om mee te blijven met gebruiksvriendelijkheid. De opdrachten heb ik uitgevoerd in Visual Studio Code. Kreeg als tip van Emke om te zoeken met vergrootglas voor bepaalde dingen. Is gewoon soort van #f.</p>
+<p>Ook heb ik geleerd dat je in VSC zelf ook kan committen naar Github i.p.v de terminal en de Github Desktop App.</p>
+<h2>Wat ging goed?</h2>
+<p>De opdrachten was niet heel moeilijk, alleen moest je even weten waar wat staat. Maar door de tip van Emke lukte het wel.</p>
