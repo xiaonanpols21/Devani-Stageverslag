@@ -1,5 +1,5 @@
-@import "./_variables";
-@import "./_header";
+@import "./variables";
+@import "./header";
 @import "./hero";
 @import "./sections";
 @import "./functions";
@@ -70,4 +70,4 @@ img {
     display: none;
 }
 
-@import "./_breakpoints";
+@import "./breakpoints";

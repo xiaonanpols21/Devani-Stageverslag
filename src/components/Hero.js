@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import PlayIcon from "../../public/img/play.svg";
+import PlayIcon from '../../public/img/play.svg';
 
 export default function Hero() {
     return (
-        <section className='hero'>
+        <section className="hero">
             <h1>
                 <span>&nbsp;Stage</span>
                 <span>verslag</span>

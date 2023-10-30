@@ -1,4 +1,3 @@
-// Sub titles
 .sub-dec {
     @include f34;
     position: relative;
@@ -17,6 +16,7 @@
     @include flex(row, 10px);
     line-height: 20px !important;
     text-align: left;
+    transition: $trans4;
 
     &:before {
         top: -12px;
@@ -67,4 +67,11 @@
 
 .sec-5 {
     padding-bottom: 100px;
+
+    article {
+
+        &:hover .sub-dec-ld {
+            color: $green;
+        }
+    }
 }
