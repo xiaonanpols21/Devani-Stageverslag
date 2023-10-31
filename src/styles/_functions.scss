@@ -46,6 +46,7 @@ article {
     right: 0;
     padding: 20px;
     background-color: rgba($black, 0.5);
+    z-index: 1;
 
     div {
         @include flex(column, 20px);
@@ -79,5 +80,4 @@ article {
     .open {
         display: block;
     }
-   
 }

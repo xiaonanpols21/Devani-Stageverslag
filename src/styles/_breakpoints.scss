@@ -111,7 +111,7 @@
         }
     }
 
-    .sec-4, .sec-5 {
+    .sec-4, .sec-5, .sec-6 {
         .sub-dec {
             @include subDecDelete;
             margin-bottom: 30px;
@@ -175,6 +175,11 @@
         h4, ul {
             @include f18;
         }
+    }
+
+    // Stagevaardigheden
+    .sec-6 {
+        padding-top: 100px;
     }
 
     // Footer

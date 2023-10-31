@@ -1,5 +1,5 @@
 import WerkzaamhedenCard from "@/components/global/WerkzaamhedenCard";
-import data from '../../../public/data/werkzaamheden.json'; 
+import data from '../../public/data/werkzaamheden.json'; 
 
 export default function Werkzaamheden() {
     return (
