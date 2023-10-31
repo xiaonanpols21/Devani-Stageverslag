@@ -54,6 +54,10 @@ img {
     color: $green;
 }
 
+summary {
+    list-style: none;
+}
+
 .overlay {
     position: absolute;
     top: 0;
