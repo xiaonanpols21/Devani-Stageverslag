@@ -9,7 +9,7 @@ export default function WerkzaamhedenCard({img, title, slug}) {
                     src={`/img/${img}`} 
                     width={250}
                     height={300}
-                    alt="Picture of the author"
+                    alt={slug}
                 />
                 <h4 className="sub-dec">{title}</h4>
             </Link>

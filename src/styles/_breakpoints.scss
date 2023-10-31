@@ -157,7 +157,7 @@
         transform: translateX(-50%)
     }
 
-    .main-werkzaamheden {
+    .main-werkzaamheden, .main-stagevaardigheden {
         @include max700;
 
         > img {

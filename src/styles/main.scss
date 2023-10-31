@@ -4,12 +4,14 @@
 @import "./sections";
 @import "./functions";
 @import "./werkzaamheden";
+@import "./stagevaardigheden";
 @import "./footer";
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {

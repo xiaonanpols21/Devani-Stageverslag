@@ -11,7 +11,7 @@ export default function Stagebegeleider() {
                 src={Emke}
                 width={150}
                 height={150}
-                alt="Stagebegeleider"
+                alt="Stagebegeleider: Emke Douwe Ottema"
             />
         </section>
     )
