@@ -17,8 +17,8 @@ export default function Werkzaamheden({ params }) {
                 <h1 className="sub-dec">{name}</h1>
                 <Image
                     src={`/img/${img}`} 
-                    width={150}
-                    height={150}
+                    width={1000}
+                    height={300}
                     alt="Werkzaamheden thumbnail"
                 />
                 <div className="overlay"></div>
@@ -27,8 +27,8 @@ export default function Werkzaamheden({ params }) {
                 <h2 className="visually-hidden">Werkzaamheden content</h2>
                 <Image
                     src={`/img/${img}`} 
-                    width={150}
-                    height={150}
+                    width={700}
+                    height={300}
                     alt="Werkzaamheden thumbnail"
                 />
                 <Link href={demo} target="_blank">Bekijk demo</Link>

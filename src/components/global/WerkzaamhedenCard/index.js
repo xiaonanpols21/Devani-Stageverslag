@@ -7,8 +7,8 @@ export default function WerkzaamhedenCard({img, title, slug}) {
             <Link href={`/werkzaamheden/${slug}`}>
                 <Image
                     src={`/img/${img}`} 
-                    width={250}
-                    height={300}
+                    width={360}
+                    height={250}
                     alt={slug}
                 />
                 <h4 className="sub-dec">{title}</h4>

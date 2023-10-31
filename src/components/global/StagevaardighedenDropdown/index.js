@@ -22,8 +22,8 @@ export default function StagevaardighedenDropdown({img, title, slug, content}) {
                     <h3 className="visually-hidden">Stagevaardigheden content</h3>
                     <Image
                         src={img} 
-                        width={310}
-                        height={200}
+                        width={700}
+                        height={300}
                         alt="Werkzaamheden thumbnail"
                         id={slug}
                     />

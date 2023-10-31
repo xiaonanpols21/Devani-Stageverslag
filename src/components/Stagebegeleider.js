@@ -9,8 +9,8 @@ export default function Stagebegeleider() {
             <p>Proident ex dolor laboris do veniam reprehenderit officia laboris cupidatat incididunt cupidatat excepteur fugiat do.</p>
             <Image
                 src={Emke}
-                width={150}
-                height={150}
+                width={340}
+                height={340}
                 alt="Stagebegeleider: Emke Douwe Ottema"
             />
         </section>

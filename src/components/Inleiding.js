@@ -9,32 +9,32 @@ export default function Inleiding() {
                 <li>
                     <Image
                         src="/img/foto-6.jpg" 
-                        width={250}
-                        height={300}
+                        width={360}
+                        height={360}
                         alt="Picture of the author"
                     />
                 </li>
                 <li>
                     <Image
                         src="/img/foto-6.jpg" 
-                        width={250}
-                        height={300}
+                        width={360}
+                        height={360}
                         alt="Picture of the author"
                     />
                 </li>
                 <li>
                     <Image
                         src="/img/foto-6.jpg" 
-                        width={250}
-                        height={300}
+                        width={360}
+                        height={360}
                         alt="Picture of the author"
                     />
                 </li>
                 <li>
                     <Image
                         src="/img/foto-6.jpg" 
-                        width={250}
-                        height={300}
+                        width={360}
+                        height={360}
                         alt="Picture of the author"
                     />
                 </li>
