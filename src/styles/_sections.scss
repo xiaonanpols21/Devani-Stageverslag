@@ -81,6 +81,14 @@
             color: $green;
         }
     }
+
+    h4 {
+        @include flex(row, 10px);
+    }
+
+    span {
+        display: block;
+    }
 }
 
 .sec-6 {
@@ -92,3 +100,5 @@
         height: 20px;
     }
 }
+
+

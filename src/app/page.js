@@ -7,8 +7,6 @@ import Werkzaamheden from "@/components/Werkzaamheden";
 import Leerdoelen from "@/components/Leerdoelen";
 import Stagevaardigheden from "@/components/Stagevaardigheden";
 
-
-
 export default function Home() {
 
     return (

@@ -1,13 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Mockup from "../../public/img/mockup.jpg";
+import data from "../../public/data/leerdoelen.json";
+import LeerdoelenCard from "./global/LeerdoelenCard";
 
-// Import the FontAwesomeIcon component
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {
-    faXmark
-} from "@fortawesome/free-solid-svg-icons";
 
 export default function Leerdoelen() {
     // Function to toggle the menu
@@ -21,64 +18,23 @@ export default function Leerdoelen() {
             <h2 className="sub-dec">Leerdoelen</h2>
             <section className="cards">
                 <h3 className="visually-hidden">Leerdoelen carousel</h3>
-                <article>
-                    <button
-                        className={`${showMenu ? 'open' : ''}`}
-                        onClick={toggleMenu}
-                    >
-                        <Image
-                            src={Mockup}
-                            width={250}
-                            height={300}
-                            alt="Picture of the author"
+                {data.map((item, key) => {
+                    return (
+                        <LeerdoelenCard 
+                            key = {key}
+                            id = {item.id}
+                            title = {item.name}
+                            img = {item.img}
+                            toggleMenu={toggleMenu}
+                            showMenu={showMenu}
+                            data={data}
+                            content = {item.content}
+                            
                         />
-                        <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
-                    </button>
-                </article>
-                <article>
-                    <button
-                        className={`${showMenu ? 'open' : ''}`}
-                        onClick={toggleMenu}
-                    >
-                        <Image
-                            src={Mockup}
-                            width={250}
-                            height={300}
-                            alt="Picture of the author"
-                        />
-                        <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
-                    </button>
-                </article>
-                <article>
-                    <button
-                        className={`${showMenu ? 'open' : ''}`}
-                        onClick={toggleMenu}
-                    >
-                        <Image
-                            src={Mockup}
-                            width={250}
-                            height={300}
-                            alt="Picture of the author"
-                        />
-                        <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
-                    </button>
-                </article>
-                <article>
-                    <button
-                        className={`${showMenu ? 'open' : ''}`}
-                        onClick={toggleMenu}
-                    >
-                        <Image
-                            src={Mockup}
-                            width={250}
-                            height={300}
-                            alt="Picture of the author"
-                        />
-                        <h4 className="sub-dec sub-dec-ld"><span>1: </span>Samen ontwerpen</h4>
-                    </button>
-                </article>
+                    );
+                })}
             </section>
-            <section className={`leerdoelen-pop-up ${showMenu ? 'open' : 'closed'}`}>
+            {/* <section className={`leerdoelen-pop-up ${showMenu ? 'open' : 'closed'}`}>
                 <h3 className="visually-hidden">Leerdoelen context</h3>
                 <div>
                     <h4 className="sub-dec">1: Samen ontwerpen</h4>
@@ -92,7 +48,7 @@ export default function Leerdoelen() {
                         />
                     </button>
                 </div>
-            </section>
+            </section> */}
         </main>
     )
 }
