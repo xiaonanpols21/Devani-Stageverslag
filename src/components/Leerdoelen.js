@@ -28,7 +28,8 @@ export default function Leerdoelen() {
                             toggleMenu={toggleMenu}
                             showMenu={showMenu}
                             data={data}
-                            content = {item.content}
+                            description = {item.description}
+                            reflection = {item.reflection}
                             
                         />
                     );

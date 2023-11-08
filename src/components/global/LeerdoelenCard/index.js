@@ -8,7 +8,7 @@ import {
     faXmark
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function LeerdoelenCard({ id, title, content, img, toggleMenu, showMenu, data }) {
+export default function LeerdoelenCard({ id, title, description, reflection, img, toggleMenu, showMenu, data }) {
     const [popupContent, setPopupContent] = useState({
         title: "",
         description: "",
@@ -40,7 +40,7 @@ export default function LeerdoelenCard({ id, title, content, img, toggleMenu, sh
                     height={250}
                     alt={title}
                 />
-                <h4 className="sub-dec">{title}</h4>
+                <h4 className="sub-dec"><span>{id}:</span>{title}</h4>
             </button>
             {/* Additional logic to display popup content */}
             {showMenu && (
@@ -48,9 +48,9 @@ export default function LeerdoelenCard({ id, title, content, img, toggleMenu, sh
                     <h3 className="visually-hidden">Leerdoelen context</h3>
                     <div>
                         <h4 className="sub-dec">{title}</h4>
-                        <p>{content}</p>
+                        <p>{description}</p>
                         <h5>Reflectie</h5>
-                        <p>{content}</p>
+                        <p>{reflection}</p>
                         <button onClick={toggleMenu}>
                             <FontAwesomeIcon icon={faXmark} className='i' />
                         </button>
