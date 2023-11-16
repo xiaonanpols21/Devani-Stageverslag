@@ -12,7 +12,7 @@ export default function Hero() {
             <h2 className='visually-hidden'>Auther</h2>
             <ul>
                 <li>Xiao Nan Pols || 500839533</li>
-                <li>Decani || Front-end developer</li>
+                <li>Devani || Front-end developer</li>
             </ul>
 
             <h2>Bedrijfsbegeleider</h2>
@@ -40,7 +40,6 @@ export default function Hero() {
                     alt="Play icoon"
                 />
             </button>
-            
         </section>
     )
 }

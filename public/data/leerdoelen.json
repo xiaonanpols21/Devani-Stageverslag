@@ -3,35 +3,35 @@
         "id": 1,
         "name": "Samen ontwerpen",
         "img": "../img/stagevaardigheden-yvanca.jpg",
-        "description": "123",
+        "description": "123 samen ontwerpen",
         "reflection": "456"
     },
     {
         "id": 2,
         "name": "Verbeelden en conceptualiseren",
         "img": "../img/stagevaardigheden-yvanca.jpg",
-        "description": "123",
+        "description": "123 verbeelden en ",
         "reflection": "456"
     },
     {
         "id": 3,
         "name": "Evalueren",
         "img": "../img/stagevaardigheden-yvanca.jpg",
-        "description": "123",
+        "description": "123 eva",
         "reflection": "456"
     },
     {
         "id": 4,
         "name": "Prototypen en uitwerken",
         "img": "../img/stagevaardigheden-yvanca.jpg",
-        "description": "123",
+        "description": "123 proto",
         "reflection": "456"
     },
     {
         "id": 5,
         "name": "Georganiseerd en professioneel ontwerpen",
         "img": "../img/stagevaardigheden-yvanca.jpg",
-        "description": "123",
+        "description": "123 geo",
         "reflection": "456"
     }
 ]

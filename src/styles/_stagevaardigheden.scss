@@ -2,6 +2,15 @@
     padding: 20px;
     background-color: $black;
     color: $white;
+    cursor: pointer;
+
+    summary {
+        transition: $trans4;
+    }
+
+    &:hover summary {
+        color: $green;
+    }
 
     section {
         margin: 20px -20px -20px -20px;
@@ -17,13 +26,6 @@
 
     img {
         width: 100%;
-    }
-
-    summary {
-        &:hover {
-            color: $green;
-            cursor: pointer;
-        }
     }
 }
 
