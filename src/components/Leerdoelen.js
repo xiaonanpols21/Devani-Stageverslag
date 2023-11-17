@@ -22,6 +22,7 @@ export default function Leerdoelen() {
                             key = {key}
                             id = {item.id}
                             name = {item.name}
+                            slug = {item.slug}
                             img = {item.img}
                             toggleMenu={toggleMenu}
                             showMenu={showMenu}

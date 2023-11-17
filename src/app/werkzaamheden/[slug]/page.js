@@ -13,7 +13,7 @@ export default function Werkzaamheden({ params }) {
 
     return (
         <div>
-            <section className="hero-werk">
+            {/* <section className="hero-werk">
                 <h1 className="sub-dec">{name}</h1>
                 <Image
                     src={`/img/${img}`} 
@@ -22,7 +22,7 @@ export default function Werkzaamheden({ params }) {
                     alt="Werkzaamheden thumbnail"
                 />
                 <div className="overlay"></div>
-            </section>
+            </section> */}
             <main className="main-werkzaamheden">
                 <h2 className="visually-hidden">Werkzaamheden content</h2>
                 <Image

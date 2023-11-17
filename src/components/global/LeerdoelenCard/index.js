@@ -17,6 +17,9 @@ export default function LeerdoelenCard({ id, name, description, reflection, img,
         console.log("Selected Data:", selectedData);
         toggleMenu(id);
     }, [id, toggleMenu, data]);
+    
+
+    
 
     return (
         <article>
