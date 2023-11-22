@@ -10,22 +10,21 @@ import {
 
 export default function LeerdoelenCard({ id, name, description, reflection, img, toggleMenu, showMenu, data }) {
     const [imageHeight, setImageHeight] = useState(0);
+    const [selectedData, setSelectedData] = useState(null); // Lift state up
 
     const handleCardClick = useCallback(() => {
         console.log("Clicked ID:", id);
-        const selectedData = data.find(item => item.id === id);
-        console.log("Selected Data:", selectedData);
+        const dataItem = data.find(item => item.id === id);
+        console.log("Selected Data:", dataItem);
+        setSelectedData(dataItem);
         toggleMenu(id);
     }, [id, toggleMenu, data]);
-    
-
-    
 
     return (
         <article>
             <button
                 className={`${showMenu ? 'open' : ''}`}
-                onClick={handleCardClick} // Handle click to show popup and set content
+                onClick={handleCardClick}
             >
                 <Image
                     src={`/img/${img}`}
@@ -39,12 +38,12 @@ export default function LeerdoelenCard({ id, name, description, reflection, img,
                 <div className="leerdoelen-pop-up open">
                     <h3 className="visually-hidden">Leerdoelen context</h3>
                     <div>
-                        <h4 className="sub-dec">{name}</h4>
+                        <h4 className="sub-dec">{selectedData && selectedData.name}</h4>
                         <p>{description}</p>
                         <h5>Reflectie</h5>
                         <p>{reflection}</p>
 
-                        <button onClick={toggleMenu}>
+                        <button onClick={() => toggleMenu(id)}>
                             <FontAwesomeIcon icon={faXmark} className='i' />
                         </button>
                     </div>
