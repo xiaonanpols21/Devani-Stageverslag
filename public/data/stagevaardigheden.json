@@ -8,13 +8,16 @@
     {
         "name": "Nieuwe Software: Sketch",
         "slug": "nieuwe-software-sketch",
-        "img": "/img/werkzaamheden-wireframes.jpg",
         "content": "<p>Met mijn stage heb ik de volgende Sketch vaardigheden geleerd (Uitgebreide verslag, zie <a href=''>Leerdoelen 4):</a></p><ul><li>Layout</li><li>Typografie</li><li>Prototyping</li><li>Exporteren</li></ul>"
     },
     {
         "name": "Variaties van Ontwerp",
         "slug": "variaties-van-ontwerp",
-        "img": "/img/werkzaamheden-wireframes.jpg",
         "content": "<p>Voor <a href='https://www.bikkeltraining.nl/'>Bikkeltraining</a> moest er een nieuw design ontworpen worden. Hiervoor zijn er meer versies gemaakt. Zie <a href='/werkzaamheden/bikkeltraining-design'>Bikkeltraining Design</a></p>"
+    },
+    {
+        "name": "Nieuwe Software: Bootstrap",
+        "slug": "nieuwe-software-bootstrap",
+        "content": "<p>Met mijn stage heb ik geleerd om te werken met Bootstrap. Het bedrijf gebruikt bootstrap in al hun websites. Door bootstrap gaat het programmeren en stijlen sneller. Devani heeft een standaard programmeer file om te starten met een project. Hier zit Bootstrap, Sass en Gulp in. Met Bootstrap hoef je alleen maar een paar kleuren te veranderen, dimensies en dan kan je gelijk aan de start met het bouwen van de website.</p><img src='img/stagevaardigheden-bootstrap.jpg' alt='Stagevaardigheden Bootstrap'><p>Door het leren om met Boostrap om te gaan heb ik gezien dat ik Bootstrap echt stom vind en dat ik veel liever werk om mijn eigen Css componenten te maken met Sass in een aparte file i.p.v. dat je gaat stijlen met classes in je HTML. Ik zie dat ik soms langer bezig ben met het fixen van een Bootstrap bug dan dat ik had gedacht en dat dit probleem sneller opgelost was als het gewoon custom Sass was.</p><p>Maar ik snap als bedrijf zijnde dat je wel Bootstrap kiest over custom omdat het voor hun wel makkelijke en sneller kan zijn. Ik denk dat als ik alles over Bootstrap zou weten dat het dan voor mij ook sneller zou gaan dus het is meer een punt van inkomen en leren. Emke zei wel dat dit meer bedrijf leven is en dat school meer is van: Alles moet apart.</p>"
     }
 ]

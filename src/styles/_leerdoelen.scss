@@ -1,0 +1,54 @@
+.main-leerdoelen {
+    @include flex(column, 20px);
+    padding: 50px 20px 100px 20px;
+
+    .sub-dec {
+        @include f26;
+        margin: 40px 0px 0px 0px;
+    }
+
+    h2 {
+        margin-bottom: -30px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+
+    ul {
+
+        li {
+            list-style: disc;
+            margin-left: 20px;
+
+            div {
+                &:before {
+                    content: "- ";
+                }
+            }
+        }
+    }
+
+    .content {
+        position: relative;
+        margin-top: 20px;
+
+        p:last-of-type {
+            &:after {
+                content: "";
+                border-bottom: 1px solid $gray;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: -20px;
+            }
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+    }
+
+
+}

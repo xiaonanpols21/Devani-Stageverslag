@@ -12,30 +12,17 @@ export default function Werkzaamheden({ params }) {
     const { name, img, content, demo } = currentItem;
 
     return (
-        <div>
-            {/* <section className="hero-werk">
-                <h1 className="sub-dec">{name}</h1>
-                <Image
-                    src={`/img/${img}`} 
-                    width={1000}
-                    height={300}
-                    alt="Werkzaamheden thumbnail"
-                />
-                <div className="overlay"></div>
-            </section> */}
-            <main className="main-werkzaamheden">
-                <h2 className="visually-hidden">Werkzaamheden content</h2>
-                <Image
-                    src={`/img/${img}`} 
-                    width={700}
-                    height={300}
-                    alt="Werkzaamheden thumbnail"
-                />
-                <Link href={demo} target="_blank">Bekijk demo</Link>
-                <div className="content" dangerouslySetInnerHTML={{__html: content}}></div>
-                
-            </main>
-        </div>
+        <main className="main-werkzaamheden">
+            <h2 className="visually-hidden">Werkzaamheden content</h2>
+            <Image
+                src={`/img/${img}`} 
+                width={700}
+                height={300}
+                alt="Werkzaamheden thumbnail"
+            />
+            <Link href={demo} target="_blank">Bekijk demo</Link>
+            <div className="content" dangerouslySetInnerHTML={{__html: content}}></div>
+        </main>
     );
 }
 
