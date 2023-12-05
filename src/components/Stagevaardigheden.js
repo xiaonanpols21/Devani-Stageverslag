@@ -5,7 +5,6 @@ export default function Stagevaardigheden() {
     return (
         <section className="sec sec-6">
             <h2 className="sub-dec">Stagevaardigheden</h2>
-
                 {data.map((item, key) => {
                     return (
                         <StagevaardighedenDropdown 

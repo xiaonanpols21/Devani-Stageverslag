@@ -22,11 +22,11 @@ export default function StagevaardighedenDropdown({img, title, slug, content}) {
                     <h3 className="visually-hidden">Stagevaardigheden content</h3>
                     {img && (
                         <Image
-                        src={img}
-                        width={700}
-                        height={300}
-                        alt="Werkzaamheden thumbnail"
-                        id={slug}
+                            src={img}
+                            width={700}
+                            height={300}
+                            alt="Werkzaamheden thumbnail"
+                            id={slug}
                         />
                     )}
                      <div className="content" dangerouslySetInnerHTML={{__html: content}}></div>
