@@ -1,3 +1,4 @@
+"use client";
 import WerkzaamhedenCard from "@/components/global/WerkzaamhedenCard";
 import data from '../../public/data/werkzaamheden.json'; 
 

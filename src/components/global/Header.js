@@ -57,6 +57,7 @@ export default function Header() {
                     <li><Link href="">Werkzaamheden</Link> </li>
                     <li><Link href="">Leerdoelen</Link> </li>
                     <li><Link href="">Stagevaardigheden</Link> </li>
+                    <li><Link href="">Observatie opdracht</Link> </li>
                     <li><Link href="">Feedbackformulieren</Link> </li>
                     <li><Link href="">Reflectie</Link> </li>
                     <li><Link href="">Extra</Link> </li>

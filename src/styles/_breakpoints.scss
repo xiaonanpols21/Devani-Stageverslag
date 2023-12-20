@@ -87,6 +87,7 @@
         }
     }
 
+    // Stagebegeleider
     .sec-3 {
         position: relative;
         margin-top: 50px;
@@ -111,23 +112,19 @@
         }
     }
 
-    .sec-4, .sec-5 {
+    // Werkzaamheden en leerdoelen
+    .sec-4, .sec-5, .sec-7 {
         .sub-dec {
             @include subDecDelete;
             margin-bottom: 30px;
         }
-
-        .leerdoelen-pop-up {
-            .sub-dec, h5, p{
-                @include max700;
-                margin: 0px auto;
-            }
-
-            button {
-                margin-bottom: calc(50px - 20px);
-            }
-        }
     }
+
+    .sec-5 {
+        padding-bottom: 100px;
+    }
+
+
 
     .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -146,18 +143,13 @@
         }
     }
 
-    .sec-5 {
-        padding-bottom: 100px;
-    }
-
-    // Werkzaamheden
     .hero-werk h1 {
         @include max700;
         left: 50%;
         transform: translateX(-50%)
     }
 
-    .main-werkzaamheden, .main-stagevaardigheden {
+    .main-werkzaamheden, .main-stagevaardigheden, .main-leerdoelen {
         @include max700;
 
         > img {
@@ -174,6 +166,12 @@
 
         h4, ul {
             @include f18;
+        }
+    }
+
+    .main-leerdoelen {
+        .sub-dec {
+            @include f34;
         }
     }
 
